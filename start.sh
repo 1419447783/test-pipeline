@@ -1,4 +1,5 @@
 #!/bin/bash
+export BUILD_ID=dontKillMe
 ACTION=$1
 APP_HOME=/home/project  #jar包存放目录
 JAR_NAME=test-pipeline-0.0.1-SNAPSHOT.jar #jar包名称
@@ -67,3 +68,4 @@ case $ACTION in
     stop
     ;;
 esac
+sleep 10s
