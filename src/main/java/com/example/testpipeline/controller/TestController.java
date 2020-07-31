@@ -22,4 +22,9 @@ public class TestController {
     public String ok(){
         return "ok!";
     }
+
+    @GetMapping("or")
+    public String or(){
+        return "or!";
+    }
 }
